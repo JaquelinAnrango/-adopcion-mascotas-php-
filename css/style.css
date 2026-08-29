@@ -1,0 +1,34 @@
+/* Estilos del Banner Principal (Hero) */
+/* Banner principal ultra compacto */
+.hero-section {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+}
+
+/* Ajuste de márgenes internos para reducir altura */
+.hero-section .container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+/* Formato unificado para las fotos de las mascotas */
+.img-card-fit {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Efectos en las tarjetas al pasar el ratón */
+.card-mascota {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-mascota:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Desplazamiento suave para los enlaces del menú */
+html {
+    scroll-behavior: smooth;
+}
