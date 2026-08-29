@@ -74,10 +74,10 @@ $mascotas = [
     </header>
 
     <!-- Hero / Presentación -->
-    <section id="inicio" class="hero-section text-white text-center py-5">
-        <div class="container py-4">
+    <section id="inicio" class="hero-section text-white text-center py-3">
+        <div class="container py-2">
             <h1 class="display-4 fw-bold">Un hogar amoroso para cada huellita</h1>
-            <p class="lead col-lg-8 mx-auto mt-3">
+            <p class="lead col-lg-5 mx-auto mt-2">
                 Dales una segunda oportunidad. Adopta un amigo leal y transforma su vida para siempre.
             </p>
             <a href="#catalogo" class="btn btn-warning btn-lg fw-bold shadow-sm mt-3 text-dark">
